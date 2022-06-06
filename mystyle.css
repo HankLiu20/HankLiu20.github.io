@@ -1,0 +1,24 @@
+a:link {																		/*第 8 題*/
+color:#0000C6;
+text-decoration:underline;
+}
+a:visited {
+color:#C300FF;
+text-decoration:none;
+}
+a:hover {																		/*第 7 題*/
+color:#00FF59;
+text-decoration:none;
+}
+[class*="ul"] {
+	background: yellow;
+	color: green;
+}
+img	{
+	width: 300px;
+	transition: width 3s, height 3s, transform 3s,background 2s ease-in;
+}
+img:hover{
+	width:360px;
+	transform:rotate(360deg);
+}
