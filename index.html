@@ -2,9 +2,28 @@
 <html>
   <head>
     <title>This is the title</title>
+	<link rel = "stylesheet" href = "mystyle.css">
+	<script>
+      function Click() {
+        document.getElementById("click").innerHTML = "騙你的:P";
+	}
+    </script>
   </head>
   
-  <body>
-    <center> <h1> My file </h1> </center>
+<body onload = "alert('惱人的alert')">
+    <center> <h1> Some part of me </h1> </center>
+    <div style = "background-color:#AEE1CD">
+	  <p>My study history：</p>
+	</div>
+	<ol>
+	  <li class = "Fugang">Fugang elementary school</li><br>
+	  <li class = "Fugang">Fugang junior high school</li><br>
+	  <li class = "Wuling">Wuling senior high school</li><br>
+	  <li class = "NCU"><a href = "https://im.mgt.ncu.edu.tw/" target = "_blank">NCU MIS</a></li>
+	  <hr>
+	  <image src = "NCUMIS.png" alt = "載入失敗">
+	</ol>
+	<p id = "click">這裡有彩蛋喔</p>
+	<button type = "button" onclick = "Click()">按這裡查看</button>
   </body>
 </html>
