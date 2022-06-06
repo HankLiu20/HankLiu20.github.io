@@ -1,0 +1,24 @@
+a:link {
+color:#0000C6;
+text-decoration:underline;
+}
+a:visited {
+color:#C300FF;
+text-decoration:none;
+}
+a:hover {
+color:#00FF59;
+text-decoration:none;
+}
+[class*="ul"] {
+	background: yellow;
+	color: green;
+}
+img	{
+	width: 300px;
+	transition: width 3s, height 3s, transform 3s,background 2s ease-in;
+}
+img:hover{
+	width:360px;
+	transform:rotate(360deg);
+}
