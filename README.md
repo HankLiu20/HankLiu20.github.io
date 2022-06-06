@@ -1,1 +1,1 @@
-### For more information, see the [contributor guide index](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
+### [Click here~]((https://github.com/HankLiu20/HankLiu20.github.io/blob/main/index.html)).
